@@ -48,9 +48,12 @@ The dataset `all_stocks_5yr.csv` (~100+ MB) contains historical stock prices for
 
 ```bash
 pip install -r requirements.txt
+```
 Run the Jupyter notebooks in order, starting with data preprocessing and then model training.
 
 Visualize results using provided notebooks.
+
+---
 
 API Keys
 This project uses the NewsAPI for fetching news headlines.
@@ -58,8 +61,12 @@ You need to get your own API key and update the API key variable in the notebook
 
 newsapi = NewsApiClient(api_key='YOUR_NEWSAPI_KEY')
 
-License
+---
+
+##License
 This project is licensed under the MIT License.
+
+---
 
 Contact
 Created by Chakri.
